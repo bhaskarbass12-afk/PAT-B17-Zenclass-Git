@@ -7,8 +7,6 @@ elif(operation=="sub"):
     print(a-b)
 elif(operation=="mul"):
     print(a*b)
-elif(operation=="div"):
-    print(a/b)
 else:
     print("invalid entry")
     
