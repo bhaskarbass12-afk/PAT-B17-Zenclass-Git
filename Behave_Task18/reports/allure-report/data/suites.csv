@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4750","Logout functionality works correctly","","2026-09-10","passed","2026-09-10","","","",""
+"","5883","Validate the username and password input boxes","","2026-09-10","passed","2026-09-10","","","",""
+"","1275","Unsuccessful login with invalid credentials","","2026-09-10","passed","2026-09-10","","","",""
+"","1532","Validate the submit button is working","","2026-09-10","passed","2026-09-10","","","",""
+"","1382","Successful login with valid credentials","","2026-09-10","passed","2026-09-10","","","",""
