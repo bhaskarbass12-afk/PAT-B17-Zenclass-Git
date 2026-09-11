@@ -1,0 +1,112 @@
+2026-09-11 10:49:35 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:49:56 | INFO    | pages.authenticated_page | Clicked main menu item 'Claim'
+2026-09-11 10:50:06 | INFO    | pages.base_page | Selected first available option 'Accommodation' for 'Event' dropdown
+2026-09-11 10:50:10 | INFO    | pages.base_page | Selected first available option 'Afghanistan Afghani' for 'Currency' dropdown
+2026-09-11 10:50:10 | INFO    | pages.base_page | Typed into 'Remarks' field
+2026-09-11 10:50:10 | INFO    | pages.claim_page | Created claim (event=Accommodation)
+2026-09-11 10:50:13 | INFO    | test_claim | Claim creation confirmation (claim type=Accommodation): Success
+Successfully Saved
+2026-09-11 10:50:18 | INFO    | pages.claim_page | No 'Add expense' action available; skipping amount entry
+2026-09-11 10:50:22 | INFO    | pages.claim_page | Submitted claim for approval
+2026-09-11 10:51:34 | INFO    | test_forgot_password | Forgot Password flow responded with: https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestResetPassword
+2026-09-11 10:51:41 | INFO    | test_home_url | Home URL loaded successfully: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2026-09-11 10:51:51 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:51:53 | INFO    | pages.authenticated_page | Clicked main menu item 'Leave'
+2026-09-11 10:51:58 | INFO    | pages.base_page | Selected autocomplete suggestion 'Shri A' for 'Employee Name' (query='a')
+2026-09-11 10:51:58 | INFO    | pages.base_page | Selected first available option 'CAN - Bereavement' for 'Leave Type' dropdown
+2026-09-11 10:51:59 | INFO    | pages.base_page | Typed into 'From Date' field
+2026-09-11 10:51:59 | INFO    | pages.base_page | Typed into 'To Date' field
+2026-09-11 10:52:03 | INFO    | pages.leave_page | Insufficient-balance confirmation dialog shown; confirming with 'Ok'
+2026-09-11 10:52:03 | INFO    | pages.leave_page | Assigned leave to 'a' (type=CAN - Bereavement, 2026-01-12 - 2026-02-12)
+2026-09-11 10:52:06 | INFO    | test_leave | Leave assignment confirmation for 'a' (type=CAN - Bereavement): Success
+Successfully Saved
+2026-09-11 10:52:10 | INFO    | test_login | Run RUN01 (tester=QA Automation, date=2026-09-10): attempting login with username='Admin'
+2026-09-11 10:52:16 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:52:19 | INFO    | test_login | Run RUN01: login succeeded as expected
+2026-09-11 10:52:26 | INFO    | pages.authenticated_page | Logged out
+2026-09-11 10:52:28 | INFO    | test_login | Run RUN01: logout succeeded
+2026-09-11 10:52:31 | INFO    | test_login | Run RUN02 (tester=QA Automation, date=2026-09-10): attempting login with username='Admin'
+2026-09-11 10:52:37 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:52:39 | INFO    | test_login | Run RUN02: login correctly rejected with 'Invalid credentials'
+2026-09-11 10:52:43 | INFO    | test_login | Run RUN03 (tester=QA Automation, date=2026-09-10): attempting login with username='invaliduser'
+2026-09-11 10:52:48 | INFO    | pages.login_page | Submitted login form for user 'invaliduser'
+2026-09-11 10:52:49 | INFO    | test_login | Run RUN03: login correctly rejected with 'Invalid credentials'
+2026-09-11 10:52:53 | INFO    | test_login | Run RUN04 (tester=QA Automation, date=2026-09-10): attempting login with username=''
+2026-09-11 10:53:03 | INFO    | pages.login_page | Submitted login form for user '<empty>'
+2026-09-11 10:53:10 | INFO    | test_login | Run RUN04: login correctly rejected with 'Required'
+2026-09-11 10:53:14 | INFO    | test_login | Run RUN05 (tester=QA Automation, date=2026-09-10): attempting login with username='Admin'
+2026-09-11 10:53:19 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:53:26 | INFO    | test_login | Run RUN05: login correctly rejected with 'Required'
+2026-09-11 10:53:36 | INFO    | test_login_fields | Login fields confirmed visible and enabled
+2026-09-11 10:53:45 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:53:50 | INFO    | test_main_menu | Menu item 'Admin' confirmed visible and clickable
+2026-09-11 10:54:01 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:54:05 | INFO    | test_main_menu | Menu item 'PIM' confirmed visible and clickable
+2026-09-11 10:54:15 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:54:17 | INFO    | test_main_menu | Menu item 'Leave' confirmed visible and clickable
+2026-09-11 10:54:26 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:54:28 | INFO    | test_main_menu | Menu item 'Time' confirmed visible and clickable
+2026-09-11 10:54:38 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:54:43 | INFO    | test_main_menu | Menu item 'Recruitment' confirmed visible and clickable
+2026-09-11 10:54:52 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:54:59 | INFO    | test_main_menu | Menu item 'My Info' confirmed visible and clickable
+2026-09-11 10:55:12 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:55:14 | INFO    | test_main_menu | Menu item 'Performance' confirmed visible and clickable
+2026-09-11 10:55:23 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:55:27 | INFO    | test_main_menu | Menu item 'Dashboard' confirmed visible and clickable
+2026-09-11 10:55:35 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:55:44 | INFO    | pages.my_info_page | Clicked My Info tab 'Personal Details'
+2026-09-11 10:55:45 | INFO    | test_my_info | My Info tab 'Personal Details' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7)
+2026-09-11 10:55:53 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:55:58 | INFO    | pages.my_info_page | Clicked My Info tab 'Contact Details'
+2026-09-11 10:55:59 | INFO    | test_my_info | My Info tab 'Contact Details' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7)
+2026-09-11 10:56:09 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:56:13 | INFO    | pages.my_info_page | Clicked My Info tab 'Emergency Contacts'
+2026-09-11 10:56:14 | INFO    | test_my_info | My Info tab 'Emergency Contacts' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7)
+2026-09-11 10:56:23 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:56:29 | INFO    | pages.my_info_page | Clicked My Info tab 'Dependents'
+2026-09-11 10:56:31 | INFO    | test_my_info | My Info tab 'Dependents' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7)
+2026-09-11 10:56:41 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:56:45 | INFO    | pages.my_info_page | Clicked My Info tab 'Immigration'
+2026-09-11 10:56:45 | INFO    | test_my_info | My Info tab 'Immigration' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7)
+2026-09-11 10:56:55 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:57:00 | INFO    | pages.my_info_page | Clicked My Info tab 'Job'
+2026-09-11 10:57:01 | INFO    | test_my_info | My Info tab 'Job' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7)
+2026-09-11 10:57:10 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:57:13 | INFO    | pages.my_info_page | Clicked My Info tab 'Salary'
+2026-09-11 10:57:14 | INFO    | test_my_info | My Info tab 'Salary' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7)
+2026-09-11 10:57:23 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:57:27 | INFO    | pages.my_info_page | Clicked My Info tab 'Report-to'
+2026-09-11 10:57:27 | INFO    | test_my_info | My Info tab 'Report-to' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7)
+2026-09-11 10:57:36 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:57:42 | INFO    | pages.my_info_page | Clicked My Info tab 'Qualifications'
+2026-09-11 10:57:43 | INFO    | test_my_info | My Info tab 'Qualifications' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7)
+2026-09-11 10:57:52 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:57:56 | INFO    | pages.my_info_page | Clicked My Info tab 'Memberships'
+2026-09-11 10:57:56 | INFO    | test_my_info | My Info tab 'Memberships' opened successfully (now at https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7)
+2026-09-11 10:58:06 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:58:10 | INFO    | pages.base_page | Selected 'ESS' for 'User Role' dropdown
+2026-09-11 10:58:12 | INFO    | pages.base_page | Selected autocomplete suggestion 'Shri A' for 'Employee Name' (query='a')
+2026-09-11 10:58:12 | INFO    | pages.base_page | Selected 'Enabled' for 'Status' dropdown
+2026-09-11 10:58:12 | INFO    | pages.base_page | Typed into 'Username' field
+2026-09-11 10:58:12 | INFO    | pages.base_page | Typed into 'Password' field
+2026-09-11 10:58:13 | INFO    | pages.base_page | Typed into 'Confirm Password' field
+2026-09-11 10:58:13 | INFO    | pages.admin_user_page | Submitted new user 'testuser1789104486121' (role=ESS, status=Enabled)
+2026-09-11 10:58:16 | INFO    | test_user_management | Created user 'testuser1789104486121': Success
+Successfully Saved
+2026-09-11 10:58:17 | INFO    | pages.authenticated_page | Logged out
+2026-09-11 10:58:19 | INFO    | pages.login_page | Submitted login form for user 'testuser1789104486121'
+2026-09-11 10:58:20 | INFO    | test_user_management | New user 'testuser1789104486121' logged in successfully
+2026-09-11 10:58:29 | INFO    | pages.login_page | Submitted login form for user 'Admin'
+2026-09-11 10:58:33 | INFO    | pages.base_page | Selected 'ESS' for 'User Role' dropdown
+2026-09-11 10:58:35 | INFO    | pages.base_page | Selected autocomplete suggestion 'Shri A' for 'Employee Name' (query='a')
+2026-09-11 10:58:35 | INFO    | pages.base_page | Selected 'Enabled' for 'Status' dropdown
+2026-09-11 10:58:35 | INFO    | pages.base_page | Typed into 'Username' field
+2026-09-11 10:58:35 | INFO    | pages.base_page | Typed into 'Password' field
+2026-09-11 10:58:35 | INFO    | pages.base_page | Typed into 'Confirm Password' field
+2026-09-11 10:58:35 | INFO    | pages.admin_user_page | Submitted new user 'testuser1789104509615' (role=ESS, status=Enabled)
+2026-09-11 10:58:38 | INFO    | test_user_management | Created user 'testuser1789104509615': Success
+Successfully Saved
+2026-09-11 10:58:39 | INFO    | pages.base_page | Typed into 'Username' field
+2026-09-11 10:58:39 | INFO    | pages.admin_user_page | Searched system users for username 'testuser1789104509615'
+2026-09-11 10:58:40 | INFO    | test_user_management | Confirmed 'testuser1789104509615' appears in the user listing
